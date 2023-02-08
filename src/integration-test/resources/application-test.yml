@@ -1,0 +1,8 @@
+grails:
+  cache:
+    cacheManager: GrailsConcurrentLinkedMapCacheManager
+    caches:
+      foo:
+        maxCapacity: 100
+      bar:
+        maxCapacity: 200
