@@ -33,7 +33,8 @@ class CacheGrailsPlugin extends Plugin {
     def pluginExcludes = [
             '**/com/demo/**',
             'grails-app/views/**',
-            '**/*.gsp'
+            '**/*.gsp',
+            'grails-app/conf/logback.xml' // Not sure if this is excluded by default
     ]
 
     private boolean isCachingEnabled() {
